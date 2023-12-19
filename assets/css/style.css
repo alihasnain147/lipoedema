@@ -1,0 +1,24 @@
+ul li {
+  list-style: none !important;
+  text-decoration: none !important;
+}
+/* Navbar */
+.main-nav li {
+  font-size: 18px;
+  padding-left: 20px;
+}
+/* Navbar end */
+
+/* Footer */
+.footer-sec li {
+  margin-top: 10px;
+}
+.footer-social-sec {
+  display: flex;
+  text-align: center;
+}
+.footer-social-sec li {
+  margin-left: 14px;
+  font-size: 20px;
+}
+/* Footer End */
