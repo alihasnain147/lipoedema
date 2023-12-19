@@ -22,3 +22,17 @@ ul li {
   font-size: 20px;
 }
 /* Footer End */
+
+/* Home Page */
+
+/* Why Choose Section */
+.why-choose-main {
+  padding: 25px;
+}
+.why-choose-main-row {
+  background-color: #f5f5f4;
+  padding: 25px;
+}
+/* Why Choose Section End */
+
+/* Home Page End */
