@@ -36,3 +36,94 @@ ul li {
 /* Why Choose Section End */
 
 /* Home Page End */
+
+/* Service  */
+.service-form {
+  background-color: #eff0f5;
+}
+.service-form-btn {
+  background-color: #335373;
+}
+/* Service End */
+
+/* Step 2 Page */
+.steptwo-form {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.step-2-check-box ul {
+  display: flex;
+}
+.step-2-check-box ul li {
+  margin-left: 30px;
+}
+.step-2-check-box ul li label {
+  font-size: 25px;
+}
+.step-2-check-box ul li {
+  font-size: 30px;
+}
+
+/* Step 2 Page End*/
+
+/* Step 3  */
+.step-three-card {
+  padding: 20px;
+  background-color: #eff0f4;
+  border: none;
+  border-radius: 0%;
+  width: 100%;
+}
+.step-three-submit {
+  background-color: #335373;
+  border-radius: 25px;
+  padding: 10px;
+  width: 150px;
+  color: white;
+  border: none;
+}
+.watch-vid-btn {
+  background-color: #d48f87;
+  color: black;
+  border: none;
+  padding: 20px;
+  border-radius: 25px;
+}
+.views-sect p {
+  font-size: 26px;
+}
+.views-sec-btn {
+  background-color: #335373;
+  color: white;
+  border-radius: 50px !important;
+}
+.views-sec-sbmt-btn {
+  background-color: #00be62;
+  color: white;
+  border-radius: 50px !important;
+}
+/* Step 3 End */
+
+/* Media Screen */
+@media screen and (max-width: 765px) {
+  .step-2-check-box ul li {
+    margin-left: 10px;
+  }
+  .step-2-check-box ul li label {
+    font-size: 18px;
+  }
+  .none-clss {
+    margin-left: -25px !important;
+  }
+  .watch-vid-btn {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .watch-vid-btn {
+    margin-top: 190px;
+  }
+}
+/* Media Screen End */
